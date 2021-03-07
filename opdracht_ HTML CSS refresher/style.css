@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 250px;
+    padding:0px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+        "head head"
+        "main main"
+        "footer footer";
+}
+
+.pasfotoCarla{
+    display: block;
+    margin-left: auto;
+    width: 25%;
+}
+
+.carla{
+    color:black;
+    font-family: "Open sans", sans-serif ;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 60vh;
+    
+}
+
+.naamcarla{
+    height: 13px;
+    margin-left: auto;
+    margin-top: 12px;
+}
+.friends{
+    color:#808080;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.reguested{
+    color:rgb(67, 70, 72);
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+}
+
+.approvebutton1{
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    width: 28vh;
+    color: #4CAF50;
+    padding: 15px 32px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.declinebutton2{
+    border: 1px solid #ce2424;
+        color: #ce2424;
+        width: 28vh;
+        border-radius: 4px;
+        padding: 15px 32px;
+        margin:0;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        cursor: pointer;
+}
+
+
+/* Marijn Pijnenborg */
+
+.pasfotoMarijn{
+    display: block;
+    margin-left: auto;
+    margin-right: 4px;
+    width: 25%;
+}
+
+.marijn{
+    color:black;
+    font-family: "Open sans", sans-serif ;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 58vh;
+}
+
+.naammarijn{
+    height: 13px;
+    margin-left: auto;
+    margin-top: 12px;
+}
+
+.newmember{
+    color:#808080;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+.add{
+    color:rgb(67, 70, 72);
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+}
+.approvebutton{
+        border: 1px solid #4CAF50;
+        border-radius: 4px;
+        width: 28vh;
+        color: #4CAF50;
+        padding: 15px 32px;
+        margin: 0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        cursor: pointer;
+}
+
+.declinebutton{
+        border: 1px solid #ce2424;
+        color: #ce2424;
+        width: 28vh;
+        border-radius: 4px;
+        padding: 15px 32px;
+        margin:0;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        cursor: pointer;
+}
